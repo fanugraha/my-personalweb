@@ -1,6 +1,6 @@
 import Navbar from "../../componen/Navbar";
 import Header from "../../layout/Homepage Layout/Header";
-import "./HomePageStyle.css";
+import "./HomepageStyle.css";
 const Homepage = () => {
   return (
     <div className="container">

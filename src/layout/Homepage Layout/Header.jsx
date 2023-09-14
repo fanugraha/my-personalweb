@@ -5,6 +5,10 @@ import kotlin from "../../assets/icon/kotlin.svg";
 import react from "../../assets/icon/React.svg";
 import git from "../../assets/icon/Git.svg";
 import figma from "../../assets/icon/Figma.svg";
+import linkedin from "../../assets/icon/linkedin.svg";
+import github from "../../assets/icon/github.svg";
+import behance from "../../assets/icon/behance.svg";
+import fajar from "../../assets/icon/fajar.svg";
 
 const image = [
   { img: html },
@@ -22,7 +26,7 @@ const Header = () => {
       <div className="main-content">
         <div className="left-content">
           <h1 className="title-header">
-            Android, Web Developer, and UI/UX Designers
+            Android, Front-End Developer, and UI/UX Designer
           </h1>
           <p className="desc-header">
             Hello, I'm Fajar Ari Nugraha, a passionate Android and Front-end
@@ -33,18 +37,18 @@ const Header = () => {
           </p>
           <div className="sosmed-wrapper">
             <a href="https://www.linkedin.com/in/fanugraha/">
-              <img src="src\assets\icon\linkedin.svg" alt="" />
+              <img src={linkedin} alt="" />
             </a>
             <a href="https://github.com/fanugraha">
-              <img src="src\assets\icon\github.svg" alt="" />
+              <img src={github} alt="" />
             </a>
             <a href="https://www.behance.net/fajarari2">
-              <img src="src\assets\icon\behance.svg" alt="" />
+              <img src={behance} alt="" />
             </a>
           </div>
         </div>
         <div className="right-content">
-          <img src="src\assets\icon\fajar.svg" alt="" />
+          <img src={fajar} alt="" />
         </div>
       </div>
       <div className="tech-stack">

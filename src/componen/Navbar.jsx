@@ -1,13 +1,13 @@
 const Navbar = () => {
   return (
     <nav>
-      <div className="logo">Fajar Ari N</div>
+      <div className="logo">Fajar Ari Nugraha</div>
       <ul>
         <li>
           <a href="">Home</a>
         </li>
         <li>
-          <a href="">About</a>
+          <a href="">Download CV</a>
         </li>
         <li>
           <a href="">Contact</a>
